@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #093172, #65C7F7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./bg.png);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.toggle {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+button.active {
+    border-bottom: 2px solid white;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.form button {
+    background-color: midnightblue;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.hidden {
+    display: none;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0052D4, #65C7F7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.toggle {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+button.active {
+    border-bottom: 2px solid white;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.form button {
+    background-color: midnightblue;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.form button:hover {
+    background-color: #0052D4;
+}
+
+
+
+.hidden {
+    display: none;
+}
